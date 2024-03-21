@@ -2,7 +2,7 @@
 
 let profile = (function() {
     //User profile
-    let name = "Ahmed Raza";
+    let name = "Syed Ali Hashmi";
     let age = 27;
 
     //shared profile part
