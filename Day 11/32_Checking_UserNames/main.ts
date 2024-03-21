@@ -4,8 +4,8 @@
 • Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. If a username has not been used, print a message saying that the username is available.
 • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.*/
 
-let currentUsers :string [] = ["Ahmed", "Raza", "Hassan", "faIzan", "mishKat"];
-let newUsers : string [] = ["kashif", "MisHkat", "bilAl", "KhaliD", "ahmEd"];
+let currentUsers :string [] = ["Ali", "Umer", "Hassan", "faIzan", "mishKat"];
+let newUsers : string [] = ["Bilal", "MisHkat", "Shahmir", "KhaliD", "ahmEd"];
 
 newUsers.forEach(newuser => {
     if(currentUsers.some(currentuser => currentuser.toLocaleLowerCase() === newuser.toLowerCase())){
