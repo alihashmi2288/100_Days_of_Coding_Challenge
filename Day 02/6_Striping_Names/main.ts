@@ -2,7 +2,7 @@
 
 //store person name in veriable with whitespaces
 
-const personNameWithWhiteSpaces :string = "    \n\tAhmed Raza\t\n    ";
+const personNameWithWhiteSpaces :string = "    \n\tSyed Ali Hashmi\t\n    ";
 
 //print person name with white spaces
 
